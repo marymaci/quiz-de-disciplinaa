@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Conhecimentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="quiz">
+        <h1>Quiz de Conhecimentos</h1>
+
+        <p id="progresso"></p>
+        <p id="pergunta"></p>
+
+        <div id="opcoes"></div>
+
+        <p id="feedback"></p>
+
+        <button
+            id="proxima"
+            onclick="proximaPergunta()"
+            disabled
+        >
+            Próxima pergunta
+        </button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
